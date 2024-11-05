@@ -79,6 +79,11 @@
                                                     <li><a href="about.html" class="about">Haqqımızda</a></li>
                                                     <li><a href="contact.html" class="contact">Əlaqə</a></li>
                                                     <li>
+                                                        <a target="_blank" href="https://bina.az/agentlikler/m-baevs-real-estate">
+                                                        <img style="width: 46px; margin-top: -6px;" src="/app/images/cover.png" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
                                                         <a target="_blank" href="https://www.instagram.com/babayev_emlak/">
                                                         <i class="fa-brands fa-instagram"></i>
                                                         </a>
@@ -159,7 +164,7 @@
                                     <div class="content po-content-two">
                                         <div class="heading">
                                             <h1 class="wow slideInDown js-letters" id="home-title"  data-wow-delay="0ms" data-wow-duration="1200ms">Gəlin sizin üçün mükəmməl evi tapaq!</h1>
-                                            <p class="fs-16 lh-24 text-color-2 wow fadeInUp" id="home-title-01"  data-wow-delay="100ms" data-wow-duration="2000ms">Ev axtarış prosesinin bütün çətinliklərini unudun; Biz sizin ehtiyaclarınıza uyğun əmlak tapırıq.</p>
+                                            <p class="fs-16 lh-24 text-color-2 wow fadeInUp" style="font-size: 20px; line-height: 34px; font-weight: bold;" id="home-title-01"  data-wow-delay="100ms" data-wow-duration="2000ms">Ev axtarış prosesinin bütün çətinliklərini unudun; Biz sizin ehtiyaclarınıza uyğun əmlak tapırıq.</p>
                                         </div>
                                         <div class="flat-tabs themesflat-tabs">
                                             <div class="box-tab center">
@@ -333,6 +338,9 @@
                                 <div class="logo-footer style box-1" id="logo-footer" style="display: flex;align-items: center;">
                                     <a href="index.html">
                                         <img src="assets/images/logo/S.png" alt="img" width="197" height="48">
+                                    </a>
+                                    <a target="_blank" href="https://bina.az/agentlikler/m-baevs-real-estate">
+                                        <img style="width: 59px; margin-top: -4px;" src="/app/images/cover_footer.png" alt="">
                                     </a>
                                     <a style="padding-left: 10px;" target="_blank" href="https://www.instagram.com/babayev_emlak/">
                                         <i style="font-size: 20px" class="fa-brands fa-instagram"></i>
@@ -557,8 +565,8 @@
     
         const translations = {
             az: {
-                homeTitle: "Gəlin sizin üçün mükəmməl evi tapaq!",
-                homeTitle01: "Ev axtarış prosesinin bütün çətinliklərini unudun; Biz sizin ehtiyaclarınıza uyğun əmlak tapırıq.",
+               // homeTitle: "Gəlin sizin üçün mükəmməl evi tapaq!",
+                homeTitle01: "Əmlak bazarında ən etibarlı və ən güvənli vasitəçiniz olan \"M&BAEVS\" daşınmaz əmlak agentliyi 11 il öz dəyərli müştərilərinin xidmətindədir. Agentliyimiz ölkə bazarının öndə gedən şirkətlərindən birindir. Təcrübəli mütəxəsislərimizə obyekt, villa - bağ, mənzil və torpaqların qiymətləndirilməsi, alqı-satqısı və kirayəsini etibar edə bilərsiniz..",
                 cardBaseTitle: "Ən son evlər",
                 room: "Otaq sayı",
                 floorBase: "Mərtəbə",
@@ -579,8 +587,8 @@
                 footerBottom1: "Evini sat",
             },
             en: {
-                homeTitle: "Let us find the perfect home for you!",
-                homeTitle01: "Forget all the hassles of the home search process; We find properties that suit your needs.",
+             //   homeTitle: "Let us find the perfect home for you!",
+                homeTitle01: "\"M&BAEVS\" real estate agency, which is your most reliable and trustworthy intermediary in the real estate market, has been at the service of its valued customers for 11 years. Our agency is one of the leading companies in the country's market. You can rely on our experienced experts for property, villa - garden, apartment and land valuation, purchase, sale and rent.",
                 cardBaseTitle: "Latest houses",
                 room: "Room count",
                 floorBase: "Floor",
@@ -687,7 +695,7 @@
         localStorage.setItem('properties', JSON.stringify(items));
         
         let currentIndex = 0;
-        const itemsPerPage = 20;
+        const itemsPerPage = 24;
         let swiperInstance;
     
         function initializeSwiper() {
