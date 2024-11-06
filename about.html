@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="app/dist/owl.css">
 
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/images/logo/Favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/Favicon.png">
+    <link rel="shortcut icon" href="app/images/logo5.svg">
+    <link rel="apple-touch-icon-precomposed" href="app/images/logo5.svg">
 
 </head>
 
@@ -54,14 +54,23 @@
                     <div class="container6">
                         <div class="row">                      
                             <div class="col-lg-12">         
-                                <div class="inner-container flex justify-space align-center">
+                                <div style="height: 75px" class="inner-container flex justify-space align-center">
                                     <!-- Logo Box -->
                                     <div class="logo-box flex">
-                                        <div class="logo"><a href="index.html"><img src="assets/images/logo/M.png" alt="" width="197" height="48"></a></div>
+                                        <div class="logo"><a href="index.html"><img src="app/images/logo.svg" alt="" width="175" height="48"></a></div>
 
                                         <div class="d-flex" style="align-items: center; padding-left: 23px; gap: 7px;">
-                                            <img id="languageToggleAz" style="width: 15px; height: 15px; cursor: pointer;" src="/assets/images/icon/az_flag.png" alt="Azerbaijan">
-                                            <img id="languageToggleEn" style="width: 15px; height: 15px; cursor: pointer;" src="/assets/images/icon/en_flag.png" alt="English">
+                                            <div class="sl-nav">
+                                                <ul>
+                                                  <li> <i class="fa-solid fa-globe"></i>
+                                                    <div class="triangle"></div>
+                                                    <ul>
+                                                      <li id="languageToggleAz" style="display: flex; align-items: center;"><img style="width: 15px; height: 15px;" src="/assets/images/icon/az_flag.png" alt="az_flag"><div id="germany"></div> <span class="active">Azərbaycan</span></li>
+                                                      <li id="languageToggleEn" style="display: flex; align-items: center;"><img style="width: 15px; height: 15px;" src="/assets/images/icon/en_flag.png" alt="en_flag"><div id="germany"></div> <span>English</span></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
                                         </div>
                                     </div>
                                     
@@ -283,7 +292,9 @@
                                 </div>
                                 <div class="content">
                                     <p class="fw-6" id="contactText">Əlaqə nömrəsi</p>
-                                    <a href="tel:0123456789"><div class="fs-30 fw-7">055-233-07-00</div></a>
+                                    <a href="tel:+994552330700"><div class="fs-30 fw-7">055-233-07-00</div></a>
+                                    <br/>
+                                    <a href="tel:+0124328128"><div class="fs-30 fw-7">012-432-81-28</div></a>
                                 </div>
                             </div>
                         </div>
@@ -342,33 +353,50 @@
                 </div>
             </footer><!-- /#footer -->
 
-            <div class="widget-logo-footer">
+            <div class="widget-logo-footer" style="border-top: 0;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="wrap-logo flex align-center justify-space">
                                 <div class="logo-footer style box-1" id="logo-footer" style="display: flex;align-items: center;">
                                     <a href="index.html">
-                                        <img src="assets/images/logo/S.png" alt="img" width="197" height="48">
+                                        <img style="width: 135px;" src="app/images/logo.svg" alt="img" width="197" height="48">
                                     </a>
-                                    <a target="_blank" href="https://bina.az/agentlikler/m-baevs-real-estate">
-                                        <img style="width: 59px; margin-top: -4px;" src="/app/images/cover_footer.png" alt="">
+                                    <a style="padding-left: 25px" target="_blank" href="https://bina.az/agentlikler/m-baevs-real-estate">
+                                        <img style="width: 52px; margin-top: -4px;" src="/app/images/cover_footer.png" alt="">
                                     </a>
-                                    <a style="padding-left: 10px;" target="_blank" href="https://www.instagram.com/babayev_emlak/">
-                                        <i style="font-size: 20px" class="fa-brands fa-instagram"></i>
+                                    <a style="padding-left: 18px;" target="_blank" href="https://www.instagram.com/babayev_emlak/">
+                                        <i style="font-size: 18px" class="fa-brands fa-instagram"></i>
                                     </a>
                                 </div>
-                                <div class="box-menu box-2">
-                                    <ul class="menu-bottom flex align-center fs-16 fw-6">
-                                        <li><a href="index.html" class="home-page">Ana səhifə</a> </li>
-                                        <li><a href="about.html" class="about">Haqqımızda</a> </li>
-                                        <li><a href="contact.html" class="contact">Əlaqə</a> </li>
-                                    </ul>
+                                <div class="icon-social box-3 text-color-1">
+                                    <div class="box-icon flex align-center">
+                                        <ul class="menu-bottom flex align-center fs-16 fw-6" style="gap: 1.5rem;">
+                                            <li><a href="index.html" class="home-page">Ana səhifə</a> </li>
+                                            <li><a href="about.html" class="about">Haqqımızda</a> </li>
+                                            <li><a href="contact.html" class="contact">Əlaqə</a> </li>
+                                        </ul>
+                                    </div>                       
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget-logo-footer" style="padding: 9px 0 12px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="wrap-logo flex align-center justify-space">
+                                <div class="logo-footer style box-1" id="logo-footer" style="display: flex;align-items: center;">
+                                    <i style="font-size: 18px;" class="fa-solid fa-location-dot"></i>
+                                    <li style="padding-left: 10px;"><a href="#">Bakı şəhəri, Yasamal rayonu, A.M.Şərifzadə küçəsi 71</a> </li>
                                 </div>
                                 <div class="icon-social box-3 text-color-1">
                                     <div class="box-icon flex align-center">
                                         <div class="icon flex-none">
-                                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="62" height="41" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g opacity="0.3">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.26135 17.3176L10.3744 14.2041C10.8085 13.7699 11.3522 13.5664 11.9646 13.6085C12.577 13.6507 13.0877 13.9271 13.4581 14.4166L18.0679 20.5097C18.6893 21.331 18.611 22.4676 17.8827 23.1959L15.7252 25.3537C19.0452 28.1764 21.8211 30.9536 24.6433 34.2735L26.8013 32.1152C27.5296 31.3868 28.666 31.3086 29.4872 31.9301L35.5794 36.5405C36.0689 36.9109 36.3452 37.4216 36.3874 38.0341C36.4296 38.6466 36.226 39.1904 35.7919 39.6245L32.6783 42.7385C25.5089 49.909 0.0917082 24.4882 7.26135 17.3176ZM33.8537 6C39.4572 6 43.9997 10.2467 43.9997 15.4854C43.9997 20.724 39.4572 24.9707 33.8537 24.9707C31.9295 24.9707 30.1305 24.4699 28.5975 23.6002C27.3492 24.1528 26.0098 24.3125 24.728 24.123C25.208 23.2144 25.5656 22.2462 25.7915 21.2437C24.4847 19.647 23.7077 17.6511 23.7077 15.4854C23.7077 10.2467 28.2502 6 33.8537 6Z" stroke="white" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
                                                 <path d="M33.8308 20.0552V14.4344H32.5506M32.4907 20.1123H35.171M33.8308 10.7305V10.7595" stroke="white" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
@@ -376,8 +404,8 @@
                                             </svg>
                                         </div>
                                         <div class="content">
-                                            <p id="phone-num">Mobil:</p>
-                                            <a href="tel:+994552330700"><h5>(055) 233-07-00</h5></a>
+                                            <p id="phone-num">Telefon:</p>
+                                            <a href="tel:+994552330700"><h5>(055) 233-07-00</h5></a>  |  <a href="tel:+0124328128"><h5>(012) 432-81-28</h5></a>
                                         </div>
                                     </div>                       
                                 </div> 
